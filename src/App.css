@@ -1,28 +1,51 @@
 h1{
   text-align: center;
 }
-.App{
-  text-align: center;
+.div{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+.map{
   
-  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .card{
   margin-top: 10px;
   box-shadow: rgba(0,0,0,0.1) 10px 0px 190px 10px;
-  height:100px;
+  height:300px;
   width:200px;
   border-radius:20px;
   display:flex;
   flex-direction:column;
   justify-content: space-evenly;
-  transition:2s ease ;
+  transition:1s ease ;
   border:1px solid #fff;
   cursor: pointer;
+  align-items:center;
+  text-transform: capitalize;
+
   
 }
 .card:hover{
-border:1px solid rgb(208, 208, 208);
+border:1px solid rgb(134, 230, 158);
 box-shadow:none
+}
+.btn{
+  padding:10px 30px;
+  border:none;
+  border-radius:20px;
+  background:rgb(136, 232, 136);
+  cursor: pointer;
+}
+.card .changeByInput{
+  border:none;
+  background-color: rgb(211, 211, 211);
+  border-radius: 20px;
+  width:150px;
+  padding:10px 20px;
+  outline: gainsboro;
+  text-transform: capitalize;
 }
